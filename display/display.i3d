@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="untitled" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="display_diffuse.png"/>
+    <File fileId="3" filename="uvDisplay.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="lambert1" materialId="4" emissiveColor="0 0 0 1">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="lambert1" materialId="13" emissiveColor="0 0 0 1">
+      <Texture fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="display.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="digitalFarmingDisplay" translation="0 0 3.20911e-06" nodeId="7" materialIds="4" castsShadows="true" receiveShadows="true" distanceBlending="false">
+      <Shape shapeId="2" name="pPlane1" translation="0 0 4.44089e-16" nodeId="12" materialIds="13" castsShadows="true" receiveShadows="true" distanceBlending="false"/>
+    </Shape>
+    <Camera name="persp" translation="0.142534 0.13582 -0.163074" rotation="147.376 32.3257 -180" visibility="false" nodeId="8" fov="60" nearClip="0.1" farClip="1000" orthographicHeight="1"/>
+  </Scene>
+
+</i3D>

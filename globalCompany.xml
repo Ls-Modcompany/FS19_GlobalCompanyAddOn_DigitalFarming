@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<globalCompany>		
+    <specializations>
+        <registerSpecializations>
+            <specialization name="gcAddOnDigitalFarming" className="GC_AddOnDigitalFarming" filename="GC_AddOnDigitalFarming.lua" />
+        </registerSpecializations>        
+    </specializations>
+</globalCompany>

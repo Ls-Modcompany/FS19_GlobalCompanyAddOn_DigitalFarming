@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<digitalFarming>
+    
+
+    <vehicles>
+        <vehicle xmlFilename="data/vehicles/fendt/vario1000/vario1000.xml">
+            <displayPosition link="0>0|4|11" trans="-0.74 2.8 -0.83" rot="-180 -81.82 -180" />
+        </vehicle>
+    </vehicles>
+
+</digitalFarming>

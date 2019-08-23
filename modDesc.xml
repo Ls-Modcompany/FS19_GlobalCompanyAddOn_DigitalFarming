@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="44">
+    <author>LS-Modcompany / kevink98</author>
+    <version>1.0.0.0</version>
+	
+    <title>
+		<en>GlobalCompany Addon DigitalFarming</en>
+    </title>
+	
+	<description>
+		<en><![CDATA[bla]]></en>
+		<de><![CDATA[bla]]></de>
+	</description>	
+	
+	<iconFilename>GC_AddOnDigitalFarming.dds</iconFilename>
+	<multiplayer supported="true"/>
+
+    <globalCompany minimumVersion="1.0.0.0">
+        <customClasses>
+            <customClass name="GC_register"/>
+            <customClass name="GC_AddOnDigitalFarming"/>
+        </customClasses>
+    </globalCompany>
+
+	<l10n>		
+		<!-->text name="input_GCADDON_VEHICLECONTROL_INTERACT"><en>Interact</en><de>Reagieren</de></text-->
+	</l10n>		
+	
+	<actions>
+        <!--action name="GCADDON_VEHICLECONTROL_INTERACT" /-->
+    </actions>
+
+    <inputBinding>  
+        <!--actionBinding action="GCADDON_VEHICLECONTROL_INTERACT">
+            <binding device="KB_MOUSE_DEFAULT" input="MOUSE_BUTTON_LEFT" axisComponent="+" neutralInput="0" index="3"/>
+        </actionBinding-->
+    </inputBinding>	
+		
+    <extraSourceFiles>
+        <sourceFile filename="GC_Checker.lua" />
+        <sourceFile filename="GC_register.lua" />
+    </extraSourceFiles>
+</modDesc>
